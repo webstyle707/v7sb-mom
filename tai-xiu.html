@@ -1,0 +1,766 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="keywords" content="v7sb, Đá Gà, Xóc Đĩa, Bầu Cua, Nổ Hũ, Bắn Cá, Sòng Bài, Sicbo, Xổ Số, Baccarat">
+    <meta name="description" content="Tài xỉu V7SB là 1 trò chơi cá cược khá quen thuộc được nhiều người biết tới, nhưng để hiểu sâu xa nguồn gốc xuất phát từ đâu, cách chơi như thế nào.">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="icon" href="./Images/logo-1.png">
+    <title>Tài xỉu V7SB là gì? Mẹo chơi tài xỉu tỷ lệ thắng cao</title>
+  </head>
+  <body>
+    <div
+      class="styleNav h-screen fixed -left-full top-0 bg-[#3689AA] md:hidden z-30 inset-0 bg-opacity-95"
+    >
+      <div class="px-3 pt-4 space-y-12">
+        <div class="flex items-center justify-between">
+          <div class="text-xl flex items-center space-x-2">
+            <div
+              class="w-10 h-10 flex justify-center items-center text-white cursor-pointer"
+            >
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </div>
+            <div
+              class="w-10 h-10 flex justify-center items-center text-white cursor-pointer"
+            >
+              <ion-icon name="logo-pinterest"></ion-icon>
+            </div>
+            <div
+              class="w-10 h-10 flex justify-center items-center text-white cursor-pointer"
+            >
+              <ion-icon name="logo-reddit"></ion-icon>
+            </div>
+            <div
+              class="w-10 h-10 flex justify-center items-center text-white cursor-pointer"
+            >
+              <ion-icon name="logo-vimeo"></ion-icon>
+            </div>
+            <div
+              class="w-10 h-10 flex justify-center items-center text-white cursor-pointer"
+            >
+              <ion-icon name="logo-xing"></ion-icon>
+            </div>
+          </div>
+          <div class="text-4xl text-white">
+            <ion-icon onclick="handleHide()" name="close"></ion-icon>
+          </div>
+        </div>
+        <div>
+          <div
+            class="font-bold uppercase flex flex-col justify-center pl-2 space-y-4 text-white"
+          >
+            <a class="" href="./index.html"> Trang chủ </a>
+            <a class="" href="./huong-dan.html"> HƯỚNG DẪN V7SB </a>
+            <a class="" href="./khuyen-mai.html"> KHUYẾN MÃI </a>
+            <a class="" href="./blog-game.html"> BLOG GAME </a>
+            <a class="" href="./tin-tuc.html"> TIN TỨC V7SB </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="">
+      <!-- header -->
+      <div>
+        <div class="w-full shadow hidden md:block">
+          <div class="max-w-[1190px] mx-auto pb-[12px] px-4 md:px-6 xl:px-0">
+            <div class="flex items-center justify-end space-x-8 py-5">
+              <div class="flex items-center w-[28%] h-28">
+                <img class="w-full" src="./Images/logo-1.png" alt="" class=""/>
+              </div>
+              <div class="w-[68%]">
+                <img class="w-full" src="./Images/banner-v7sb.png" alt="" />
+              </div>
+            </div>
+
+            <div class="flex justify-between items-center">
+              <div class="font-bold uppercase text-sm lg:text-base">
+                <a
+                  class="hover:border-b-4 transition-all duration-75 hover:border-red-600 bottom-0 pb-4 px-4"
+                  href="./index.html"
+                >
+                  Trang chủ
+                </a>
+                <a
+                  class="hover:border-b-4 transition-all duration-75 hover:border-red-600 bottom-0 pb-4 px-4"
+                  href="./huong-dan.html"
+                >
+                  HƯỚNG DẪN V7SB
+                </a>
+                <a
+                  class="hover:border-b-4 transition-all duration-75 hover:border-red-600 bottom-0 pb-4 px-4"
+                  href="./khuyen-mai.html"
+                >
+                  KHUYẾN MÃI
+                </a>
+                <a
+                  class="hover:border-b-4 transition-all duration-75 hover:border-red-600 bottom-0 pb-4 px-4"
+                  href="./blog-game.html"
+                >
+                  BLOG GAME
+                </a>
+                <a
+                  class="border-red-600 border-b-4 bottom-0 pb-4 px-4"
+                  href="./tin-tuc.html"
+                >
+                  TIN TỨC V7SB
+                </a>
+              </div>
+              <div class="text-xl lg:text-2xl font-bold pr-4">
+                <ion-icon name="search-sharp"></ion-icon>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="md:hidden xl:px-0">
+          <div class="flex justify-center items-center py-2 px-3">
+            <img src="./Images/banner-v7sb.png" alt="" />
+          </div>
+          <div
+            class="flex justify-between items-center py-2 px-4 md:px-6 text-white bg-[#222222]"
+          >
+          <div onclick="handleShow()" id="ClickMenu" class="cursor-pointer text-3xl">
+            <ion-icon name="menu-sharp"></ion-icon>
+          </div>
+            <div class="flex justify-center items-center">
+              <img class="w-40 h-28" src="./Images/logo-1.png" alt="" />
+            </div>
+            <div class="text-2xl">
+              <ion-icon name="search-sharp"></ion-icon>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- container -->
+      <div
+        class="max-w-[1190px] px-4 md:px-6 xl:px-0 mx-auto pt-8 lg:flex space-y-8 lg:space-y-0 lg:space-x-12"
+      >
+        <div class="lg:w-[69%] pb-10 space-y-8">
+          <div class="space-y-5">
+            <p class="text-gray-500">
+              <span class=""><a href="./index.html">Trang chủ</a> </span>
+              > <span><a href="./tin-tuc.html">TIN TỨC V7SB</a></span> > Tài xỉu V7SB là gì? Mẹo chơi tài xỉu tỷ lệ
+              thắng...
+            </p>
+
+            <h2
+              class="w-28 h-8 text-[11px] text-white text-center bg-[#222222] hidden md:block"
+            >
+              TIN TỨC V7SB
+            </h2>
+
+            <h2 class="text-3xl lg:text-4xl">
+              Tài xỉu V7SB là gì? Mẹo chơi tài xỉu tỷ lệ thắng cao
+            </h2>
+
+            <div class="flex justify-between items-center text-[13px]">
+              <p class="text-[12px]">21 Tháng Ba, 2023</p>
+              <div class="flex items-center space-x-5">
+                <div class="flex items-center space-x-1">
+                  <ion-icon name="eye-outline"></ion-icon>
+                  <p>1072</p>
+                </div>
+
+                <div class="flex items-center space-x-1">
+                  <ion-icon name="chatbox-outline"></ion-icon>
+                  <p>0</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="flex items-center space-x-3">
+              <ion-icon
+                class="text-2xl bg-[#516EAB] hover:bg-[#748BBC] transition-all duration-200 text-white p-3"
+                name="logo-facebook"
+              ></ion-icon>
+              <ion-icon
+                class="text-2xl bg-[#29C5F6] hover:bg-[#54D1F8] transition-all duration-200 text-white p-3"
+                name="logo-pinterest"
+              ></ion-icon>
+              <ion-icon
+                class="text-2xl bg-[#CA212A] hover:bg-[#D54D55] transition-all duration-200 text-white p-3"
+                name="logo-xing"
+              ></ion-icon>
+              <ion-icon
+                class="text-2xl bg-[#7BBF6A] hover:bg-[#95CC88] transition-all duration-200 text-white p-3"
+                name="logo-whatsapp"
+              ></ion-icon>
+            </div>
+          </div>
+
+          <p>
+            <a href=""><strong class="text-red-500">Tài xỉu</strong> <strong class="text-red-500">V7SB</strong></a> là 1
+            trò chơi cá cược khá quen thuộc được nhiều người biết tới, nhưng để
+            hiểu sâu xa nguồn gốc xuất phát từ đâu, cách chơi như thế nào để dễ
+            thắng thì không phải ai cũng biết. vì vậy, bài viết dưới đây giúp
+            người bạn có cái nhìn tổng quan, chi tiết về tài xỉu tại
+            <a href=""><strong class="text-red-500">V7SB</strong></a
+            >.
+          </p>
+          <ul class="pl-5 space-y-3 list-disc">
+            <li>
+              <a class="text-blue-500" href=""
+                >Game bài V7SB tạo được sức hút đỉnh cao trong làng giải trí</a
+              >
+            </li>
+
+            <li>
+              <a class="text-blue-500" href=""
+                >Tài xỉu V7SB là gì? Mẹo chơi tài xỉu tỷ lệ thắng cao</a
+              >
+            </li>
+
+            <li>
+              <a class="text-blue-500" href=""
+                >Baccarat V7SB là gì? Mẹo chơi baccarat từ cao thủ mới nhất</a
+              >
+            </li>
+
+            <li>
+              <a class="text-blue-500" href=""
+                >Hướng dẫn cách chơi xóc đĩa V7SB chi tiết từ A đến Z</a
+              >
+            </li>
+
+            <li>
+              <a class="text-blue-500" href=""
+                >Đá gà V7SB – Theo dõi chiến kê dũng mạnh đẳng cấp châu Á</a
+              >
+            </li>
+          </ul>
+
+          <!-- 1 -->
+          <div class="space-y-7">
+            <h2 class="text-2xl lg:text-3xl">Khái niệm và nguồn gốc của tài xỉu V7SB</h2>
+
+            <!-- img1 -->
+            <div class="space-y-6">
+              <p>
+                Tài xỉu <strong>V7SB</strong> hay còn gọi là Over- Under, được
+                hiểu theo nghĩa nhà cái đưa ra các con số của 1 ván cược và
+                người chơi dự đoán kết quả, thắng với điều kiện con số dự đoán
+                lớn hơn (tài) hoặc bé hơn (xỉu) tỷ lệ mà nhà cái đưa ra.
+              </p>
+              <div class="space-y-2">
+                <div>
+                  <img src="./Images/tai-xiu/1.jpg" alt="" />
+                </div>
+                <p class="text-sm text-gray-600">
+                  <i> Tài xỉu V7SB là gì? </i>
+                </p>
+              </div>
+            </div>
+
+            <p>
+              Tài xỉu là 1 trò chơi cá cược được nhiều người biết đến với hình
+              thực trực tiếp và online. Nhưng với thời đại 4.0 thì hiện nay hình
+              thức chơi online đang được ưa chuộng hơn.
+            </p>
+
+            <div class="space-y-6">
+              <div class="bg-gray-50 w-full h-20 flex items-center space-x-10">
+                <p class="h-full border-[3px] border-gray-800"></p>
+                <p class="font-bold text-lg">
+                  <span>Xem Thêm </span> &nbsp;
+                  <span class="text-teal-500 underline">
+                    Đá gà V7SB – Theo dõi chiến kê dũng mạnh đẳng cấp châu Á</span
+                  >
+                </p>
+              </div>
+
+              <p>
+                Nguồn gốc tài xỉu xuất hiện đầu tiên tại Trung Quốc. Tiếp theo
+                đó những người Đài Loan, Trung Quốc nhập cư sang Mỹ, lúc này
+                game bài được tiếp nhận 1 cách rất tích cực.
+              </p>
+            </div>
+            <p>
+              Cho đến bây giờ tài xỉu đã được du nhập tại nhiều quốc gia trên
+              thế giới bởi game bài này dễ tiếp cận, dễ thắng nếu như bạn nắm
+              được cách chơi cũng như quy luật của nó.
+            </p>
+            <p>
+              Tài xỉu ở nước ta được chơi bởi 3 viên xúc xắc 6 mặt và một bàn
+              đặt cược. Thành viên tham gia vào tiền theo dự đoán kết quả của
+              xúc xắc. Mỗi&nbsp; loại cá cược có hình thức cược và tỷ lệ trả
+              thưởng khác nhau, hiện chi tiết trong bảng cược mà nhà cái đưa ra.
+            </p>
+
+            <p>
+              Trò chơi tài xỉu online được xem là nơi đầu tư sinh lời nhanh nhất
+              hiện nay vì 1 ván cược có thể chỉ diễn ra trong 5-7 phút.
+            </p>
+          </div>
+
+          <!-- 2 -->
+          <div class="space-y-7">
+            <h2 class="text-2xl lg:text-3xl">
+              Cách chơi tài xỉu V7SB đầy đủ được cao thủ bật mí
+            </h2>
+
+            <!-- img2 -->
+            <div class="space-y-6">
+              <p>
+                Chơi tài xỉu V7SB chính là bạn đưa ra quyết định chọn hình thức
+                nào để đặt cược, sau đó là chờ kết quả xem mình thắng hay thua.
+                Sau đây là các hình thức cược trong tài xỉu:
+              </p>
+              <div class="space-y-2">
+                <div>
+                  <img src="./Images/tai-xiu/2.jpg" alt="" />
+                </div>
+                <p>Cách chơi tài xỉu V7SB anh em cần nắm được</p>
+              </div>
+            </div>
+
+            <h3 class="text-2xl">Cược tài, xỉu</h3>
+
+            <p>
+              Cược tài hoặc xỉu chắc chắn là hình thức được nhiều người lựa chọn
+              và cơ bản nhất. Khi ván cược bắt đầu, anh em sẽ chọn tài hoặc xỉu,
+              trường hợp 3 viên xúc xắc có điểm từ 4 đến 10 thì xỉu thắng và nếu
+              điểm của 3 viên xúc xắc nằm trong khoảng từ 11 đến 17 thì tài
+              thắng, tỷ lệ ăn tiền sẽ là 1:1.
+            </p>
+
+            <div class="bg-gray-50 w-full h-20 flex items-center space-x-10">
+              <p class="h-full border-[3px] border-gray-800"></p>
+              <p class="font-bold text-lg">
+                <span>Xem Thêm </span> &nbsp;
+                <span class="text-teal-500 underline">
+                  V7SB có uy tín không? Tại sao thông tin nhà cái lừa đảo lại xuất hiện?</span
+                >
+              </p>
+            </div>
+
+            <h3 class="text-2xl">Cược cặp</h3>
+
+            <p>
+              Việc người chơi sẽ chọn cược 2 mặt của xúc xắc xuất hiện giống
+              nhau chính là cược cặp. Khi bạn lựa chọn cược cặp và giành chiến
+              thắng thì tỷ lệ trả thưởng như sau: Nếu cược bộ 2 bất kỳ ăn theo
+              tỷ lệ 1:11, cược bộ 2 là 1 số cụ thể là 1: 20. Trong hình thức
+              này, bet thủ có thể chọn nhiều cặp số trong 1 ván cược để vào
+              tiền.
+            </p>
+
+            <h3 class="text-2xl">Cược bộ ba</h3>
+
+            <!-- img3 -->
+            <div class="space-y-6">
+              <p>
+                Cược bộ ba chính là người chơi sẽ cược 3 mặt của xúc xắc xuất
+                hiện số điểm bằng nhau. Với hình thức này khi bạn thắng tỷ lệ ăn
+                cược rất cao. Nếu cược bộ 3 bất kỳ thì ăn tỷ lệ 1:30, còn cược
+                bộ 3 theo một con số cụ thể ăn theo tỷ lệ 1:180.
+              </p>
+
+              <div class="space-y-2">
+                <div>
+                  <img src="./Images/tai-xiu/3.jpg" alt="" />
+                </div>
+                <p>Hình thức chơi tài xỉu cược bộ ba</p>
+              </div>
+            </div>
+
+            <div class="space-y-6">
+              <h3 class="text-2xl">Cược tổng</h3>
+              <p>
+                Cược tổng là hình thức mà người chơi dự đoán tổng điểm của 3
+                viên xúc xắc là bao nhiêu trong khoảng từ 4 đến 17. Tỷ lệ trả
+                thưởng của hình thức này cao thấp tùy thuộc vào số dự đoán, ví
+                dụ cược tổng 4 ăn theo tỷ lệ 1:60 hoặc cược tổng 10 thì ăn tỷ lệ
+                1:11.
+              </p>
+            </div>
+
+            <div class="space-y-6">
+              <h3 class="text-2xl">Cược số</h3>
+              <p>
+                Trong trường hợp người chơi chọn 1 số bất kỳ là kết quả của ván
+                cược trong tài xỉu thì gọi là cược số. Tỷ lệ trả thưởng của cược
+                số phụ thuộc vào số lần xuất hiện của số đó trong kết quả xuất
+                hiện.
+              </p>
+            </div>
+          </div>
+
+          <!-- 3 -->
+          <div class="space-y-7">
+            <h2 class="text-2xl lg:text-3xl">
+              Mẹo chơi tài xỉu V7SB để có tỷ lệ ăn giải cao chuẩn chuyên gia
+            </h2>
+
+            <p>
+              Trong tài xỉu V7SB thắng thua có một phần của sự may rủi, nhưng để
+              chắc chắn nhận thưởng bạn cần phải có những chiến thuật chơi hiệu
+              quả. Sau đây là mẹo đánh tài xỉu dễ thắng nhất cho anh em tham
+              khảo:
+            </p>
+
+            <div class="bg-gray-50 w-full h-20 flex items-center space-x-10">
+              <p class="h-full border-[3px] border-gray-800"></p>
+              <p class="font-bold text-lg">
+                <span>Xem Thêm </span> &nbsp;
+                <span class="text-teal-500 underline">
+                  Link vào V7SB uy tín, không bị chặn, không lừa đảo mới nhất</span
+                >
+              </p>
+            </div>
+
+            <h3 class="text-2xl">Nguồn vốn ổn định</h3>
+
+            <!-- img3 -->
+            <div class="space-y-6">
+              <p>
+                Trước khi chơi bạn hãy chuẩn bị 1 nguồn vốn hợp lý, phân bổ
+                trong các ván đánh sao cho hiệu quả. Khi tập trung vào tài xỉu
+                V7SB mà không bị chi phối bởi nguồn vốn, không có tư tưởng phải
+                gỡ nợ nếu thua đậm thì tư tưởng sẽ thoải mái hơn, cân nhắc được
+                hình thức chơi phù hợp.
+              </p>
+              <div class="space-y-2">
+                <div>
+                  <img src="./Images/tai-xiu/4.jpg" alt="" />
+                </div>
+                <p>Mẹo chơi tài xỉu hay được cao thủ chia sẻ tại V7SB</p>
+              </div>
+            </div>
+
+            <div class="space-y-6">
+              <h3 class="text-2xl">Quan sát tần suất chiến thắng</h3>
+              <p>
+                Các cửa cược tài xỉu V7SB sẽ có tần suất chiến thắng khác nhau,
+                một cửa cược có tần suất thắng nhiều lần rất có thể sẽ thắng
+                liên tiếp sau đó.
+              </p>
+            </div>
+
+            <p>
+              Lưu ý tránh việc đặt 1 cửa và thua liên tục và người chơi cần phải
+              có sự quan sát, nắm bắt cơ hội vào tiền chuẩn xác mới nhanh chóng
+              giành chiến thắng.
+            </p>
+
+            <div class="space-y-6">
+              <h3 class="text-2xl">Chọn bàn nhiều người để chơi</h3>
+              <p>
+                Bàn cược trong tài xỉu V7SB cũng là 1 yếu tố quan trọng trong
+                việc quyết định bạn có giành được nhiều chiến thắng hay không.
+              </p>
+            </div>
+
+            <p>
+              Việc lựa chọn bàn nhiều người để chơi khi mới bắt đầu giúp bạn học
+              hỏi được nhiều kinh nghiệm từ các chuyên gia và nâng cao tỷ lệ
+              thắng.
+            </p>
+
+            <div class="space-y-6">
+              <h3 class="text-2xl">Cược theo người may mắn</h3>
+              <p>
+                Cược theo người may mắn thắng liên tục trước đó là 1 cách chơi
+                không tồi. Thực tế chứng minh nhiều trường hợp đã lội ngược dòng
+                nhờ cách đánh này.
+              </p>
+            </div>
+
+            <p>
+              Trên đây là những thông tin hữu ích giúp bạn hiểu hơn về trò chơi
+              cá cược tài xỉu V7SB. Hy vọng anh em có thêm cơ hội giành về nhiều
+              chiến thắng và tận hưởng trọn vẹn giây phút thư giãn tuyệt vời.
+            </p>
+          </div>
+          <!-- -==================>>>>>>>>>>>>>> -->
+        </div>
+
+        <div class="lg:w-[31%] space-y-8 pb-10">
+          <div class="flex justify-center items-center">
+            <img
+              class="w-full md:w-7/12 lg:w-full"
+              src="./Images/rh1.jpg"
+              alt=""
+            />
+          </div>
+
+          <div class="border-b-[3px] border-gray-800">
+            <h4 class="bg-gray-800 text-white text-center py-1 w-28">
+              Hướng Dẫn
+            </h4>
+          </div>
+
+          <div
+            class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-2 gap-5 text-sm"
+          >
+            <div>
+              <a class=" space-y-2" href="./nap-tien.html">
+                <div>
+                  <img src="./Images/rh2.jpg" alt="" />
+                </div>
+                <p class="hover:text-red-600 transition-all duration-100">
+                  Top 5 cách nạp tiền V7SB không chỉ nhanh mà còn...
+                </p>
+              </a>
+            </div>
+
+            <div>
+              <a class=" space-y-2" href="./rut-tien.html">
+                <div>
+                  <img src="./Images/rh3.jpg" alt="" />
+                </div>
+                <p class="hover:text-red-600 transition-all duration-100">
+                  Rút tiền V7SB – 3 bước thực hiện thành công nhanh...
+                </p>
+              </a>
+            </div>
+
+            <div>
+              <a class=" space-y-2" href="./tai-app.html">
+                <div>
+                  <img src="./Images/rh5.jpg" alt="" />
+                </div>
+                <p class="hover:text-red-600 transition-all duration-100">
+                  Tải app V7SB – Trải nghiệm mượt mà, đa dạng sảnh...
+                </p>
+              </a>
+            </div>
+
+            <div>
+              <a class=" space-y-2" href="./dang-nhap.html">
+                <div>
+                  <img src="./Images/rh4.jpg" alt="" />
+                </div>
+                <p class="hover:text-red-600 transition-all duration-100">
+                  Hướng dẫn các bước đăng nhập V7SB thành công ngoài mong...
+                </p>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- footer -->
+      <div class="bg-[#222222] text-[#FFFFFF]">
+        <div
+          class="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-[1190px] px-4 md:px-6 xl:px-0 mx-auto pt-16 pb-20"
+        >
+          <div class="space-y-8">
+            <div class="">
+              <img class="w-full h-48 p-4 border border-gray-700 rounded" src="./Images/logo-1.png" alt="" />
+            </div>
+            <div class="space-y-4">
+              <p>
+                V7SB - Là một trong những nhà cái uy tín hàng đầu Châu Á, với số
+                lượng người chơi khủng nhất năm 2023.
+              </p>
+
+              <div class="grid grid-cols-5 gap-4 text-xl">
+                <div
+                  class="w-10 h-10 flex justify-center items-center bg-[#292929] border-gray-700 border cursor-pointer"
+                >
+                  <ion-icon name="logo-linkedin"></ion-icon>
+                </div>
+                <div
+                  class="w-10 h-10 flex justify-center items-center bg-[#292929] border-gray-700 border cursor-pointer"
+                >
+                  <ion-icon name="logo-pinterest"></ion-icon>
+                </div>
+                <div
+                  class="w-10 h-10 flex justify-center items-center bg-[#292929] border-gray-700 border cursor-pointer"
+                >
+                  <ion-icon name="logo-reddit"></ion-icon>
+                </div>
+                <div
+                  class="w-10 h-10 flex justify-center items-center bg-[#292929] border-gray-700 border cursor-pointer"
+                >
+                  <ion-icon name="logo-vimeo"></ion-icon>
+                </div>
+                <div
+                  class="w-10 h-10 flex justify-center items-center bg-[#292929] border-gray-700 border cursor-pointer"
+                >
+                  <ion-icon name="logo-xing"></ion-icon>
+                </div>
+
+    
+              </div>
+            </div>
+          </div>
+          <div class="space-y-8">
+            <div class=" ">
+              <h4 class="text-lg font-semibold">
+                <span class="">BÀI VIẾT PHỔ BIẾN</span>
+              </h4>
+            </div>
+
+            <div class="space-y-4">
+              <div>
+                <a class="flex space-x-1" href="./huong-dan.html">
+                  <div>
+                    <img class="w-11/12" src="./Images/rh4.jpg" alt="" />
+                  </div>
+                  <div class="space-y-2 xl:text-base text-sm">
+                    <p>Hướng dẫn các bước đăng nhập V7SB thành công...</p>
+                    <p class="text-xs xl:text-sm text-gray-400">
+                      21 Tháng Ba, 2023
+                    </p>
+                  </div>
+                </a>
+              </div>
+
+              <div>
+                <a class="flex space-x-1" href="./rut-tien.html">
+                  <div>
+                    <img class="w-11/12" src="./Images/rh3.jpg" alt="" />
+                  </div>
+                  <div class="space-y-2">
+                    <p class="xl:text-base text-sm">
+                      Rút tiền V7SB – 3 bước thực hiện thành công nhanh...
+                    </p>
+                    <p class="text-xs xl:text-sm text-gray-400">
+                      21 Tháng Ba, 2023
+                    </p>
+                  </div>
+                </a>
+              </div>
+
+              <div>
+                <a class="flex space-x-1" href="./tai-app.html">
+                  <div>
+                    <img class="w-11/12" src="./Images/rh5.jpg" alt="" />
+                  </div>
+                  <div class="space-y-2">
+                    <p class="xl:text-base text-sm">
+                      Tải app V7SB – Trải nghiệm mượt mà, đa dạng sảnh...
+                    </p>
+                    <p class="text-xs xl:text-sm text-gray-400">
+                      20 Tháng Ba, 2023
+                    </p>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="space-y-8">
+            <div class=" ">
+              <h4 class="text-lg font-semibold">
+                <span class="">MỤC XEM NHIỀU</span>
+              </h4>
+            </div>
+            <ul class="space-y-3">
+              <li>
+                <a
+                  class="flex justify-between items-center hover:text-red-500 transition-all duration-75"
+                  href="./tin-tuc.html"
+                  ><span class="">TIN TỨC</span><span class="">13</span></a
+                >
+              </li>
+              <li>
+                <a
+                  class="flex justify-between items-center hover:text-red-500 transition-all duration-75"
+                  href="./blog-game.html"
+                  ><span class="">BLOG GAME</span><span class="">6</span></a
+                >
+              </li>
+              <li>
+                <a
+                  class="flex justify-between items-center hover:text-red-500 transition-all duration-75"
+                  href="./huong-dan.html"
+                  ><span class="">HƯỚNG DẪN V7SB</span
+                  ><span class="">5</span></a
+                >
+              </li>
+              <li>
+                <a
+                  class="flex justify-between items-center hover:text-red-500 transition-all duration-75"
+                  href="./khuyen-mai.html"
+                  ><span class="">KHUYẾN MÃI</span><span class="">1</span></a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="bg-[#0D0D0D] py-3">
+          <div
+            class="max-w-[1190px] px-4 md:px-6 xl:px-0 mx-auto text-sm text-gray-300 space-y-4 lg:space-y-0 lg:flex lg:justify-between lg:items-center"
+          >
+            <div class="lg:block hidden">© v7sb.mom</div>
+            <ul
+              class="flex flex-wrap justify-center *:py-1 space-x-4 items-center"
+            >
+              <li>
+                <a
+                  class="hover:text-red-500 transition-all duration-75"
+                  href="#"
+                  >Trang Chủ</a
+                >
+              </li>
+              <li>
+                <a
+                  class="hover:text-red-500 transition-all duration-75"
+                  href="#"
+                  >Chính sách bảo mật</a
+                >
+              </li>
+              <li>
+                <a
+                  class="hover:text-red-500 transition-all duration-75"
+                  href="#"
+                  >Điều Khoản Điều Kiện</a
+                >
+              </li>
+              <li>
+                <a
+                  class="hover:text-red-500 transition-all duration-75"
+                  href="#"
+                  >Chơi có trách nhiệm</a
+                >
+              </li>
+              <li>
+                <a
+                  class="hover:text-red-500 transition-all duration-75"
+                  href="#"
+                  >Quyền riêng tư</a
+                >
+              </li>
+              <li>
+                <a
+                  class="hover:text-red-500 transition-all duration-75"
+                  href="#"
+                  >Liên Hệ</a
+                >
+              </li>
+              <li>
+                <a
+                  class="hover:text-red-500 transition-all duration-75"
+                  href="#"
+                  >Sitemap</a
+                >
+              </li>
+              <li>
+                <a
+                  class="hover:text-red-500 transition-all duration-75"
+                  href="#"
+                  >robots.txt</a
+                >
+              </li>
+            </ul>
+            <div class="lg:hidden text-center">© v7sb.mom</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>

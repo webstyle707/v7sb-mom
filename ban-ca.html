@@ -1,0 +1,772 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta
+      name="keywords"
+      content="v7sb, Đá Gà, Xóc Đĩa, Bầu Cua, Nổ Hũ, Bắn Cá, Sòng Bài, Sicbo, Xổ Số, Baccarat"
+    />
+    <meta
+      name="description"
+      content="V7SB nổi tiếng là nhà cái uy tín, đẳng cấp hàng đầu châu Á. Trang chủ sở hữu đa dạng các thể loại cá cược như thể thao, casino, xổ số, lô đề."
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="icon" href="./Images/logo-1.png">
+    <title>
+      Bắn cá V7SB là sảnh chơi nghiêng phần lớn về tính giải trí cao, giúp anh
+      em thể hiện được tài ngắm bắn chuẩn xác và nổi bật nhờ hình ảnh bắt mắt.
+    </title>
+  </head>
+  <body>
+    <div
+      class="styleNav h-screen fixed -left-full top-0 bg-[#3689AA] md:hidden z-30 inset-0 bg-opacity-95"
+    >
+      <div class="px-3 pt-4 space-y-12">
+        <div class="flex items-center justify-between">
+          <div class="text-xl flex items-center space-x-2">
+            <div
+              class="w-10 h-10 flex justify-center items-center text-white cursor-pointer"
+            >
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </div>
+            <div
+              class="w-10 h-10 flex justify-center items-center text-white cursor-pointer"
+            >
+              <ion-icon name="logo-pinterest"></ion-icon>
+            </div>
+            <div
+              class="w-10 h-10 flex justify-center items-center text-white cursor-pointer"
+            >
+              <ion-icon name="logo-reddit"></ion-icon>
+            </div>
+            <div
+              class="w-10 h-10 flex justify-center items-center text-white cursor-pointer"
+            >
+              <ion-icon name="logo-vimeo"></ion-icon>
+            </div>
+            <div
+              class="w-10 h-10 flex justify-center items-center text-white cursor-pointer"
+            >
+              <ion-icon name="logo-xing"></ion-icon>
+            </div>
+          </div>
+          <div class="text-4xl text-white">
+            <ion-icon onclick="handleHide()" name="close"></ion-icon>
+          </div>
+        </div>
+        <div>
+          <div
+            class="font-bold uppercase flex flex-col justify-center pl-2 space-y-4 text-white"
+          >
+            <a class="" href="./index.html"> Trang chủ </a>
+            <a class="" href="./huong-dan.html"> HƯỚNG DẪN V7SB </a>
+            <a class="" href="./khuyen-mai.html"> KHUYẾN MÃI </a>
+            <a class="" href="./blog-game.html"> BLOG GAME </a>
+            <a class="" href="./tin-tuc.html"> TIN TỨC V7SB </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="">
+      <!-- header -->
+      <div>
+        <div class="w-full shadow hidden md:block">
+          <div class="max-w-[1190px] mx-auto pb-[12px] px-4 md:px-6 xl:px-0">
+            <div class="flex items-center justify-end space-x-8 py-5">
+              <div class="flex items-center w-[28%] h-28">
+                <img class="w-full" src="./Images/logo-1.png" alt="" class="" />
+              </div>
+              <div class="w-[68%]">
+                <img class="w-full" src="./Images/banner-v7sb.png" alt="" />
+              </div>
+            </div>
+
+            <div class="flex justify-between items-center">
+              <div class="font-bold uppercase text-sm lg:text-base">
+                <a
+                  class="hover:border-b-4 transition-all duration-75 hover:border-red-600 bottom-0 pb-4 px-4"
+                  href="./index.html"
+                >
+                  Trang chủ
+                </a>
+                <a
+                  class="border-red-600 border-b-4 bottom-0 pb-4 px-4"
+                  href="./huong-dan.html"
+                >
+                  HƯỚNG DẪN V7SB
+                </a>
+                <a
+                  class="hover:border-b-4 transition-all duration-75 hover:border-red-600 bottom-0 pb-4 px-4"
+                  href="./khuyen-mai.html"
+                >
+                  KHUYẾN MÃI
+                </a>
+                <a
+                  class="hover:border-b-4 transition-all duration-75 hover:border-red-600 bottom-0 pb-4 px-4"
+                  href="./blog-game.html"
+                >
+                  BLOG GAME
+                </a>
+                <a
+                  class="hover:border-b-4 transition-all duration-75 hover:border-red-600 bottom-0 pb-4 px-4"
+                  href="./tin-tuc.html"
+                >
+                  TIN TỨC V7SB
+                </a>
+              </div>
+              <div class="text-xl lg:text-2xl font-bold pr-4">
+                <ion-icon name="search-sharp"></ion-icon>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="md:hidden xl:px-0">
+          <div class="flex justify-center items-center py-2 px-3">
+            <img src="./Images/banner-v7sb.png" alt="" />
+          </div>
+          <div
+            class="flex justify-between items-center py-2 px-4 md:px-6 text-white bg-[#222222]"
+          >
+            <div
+              onclick="handleShow()"
+              id="ClickMenu"
+              class="cursor-pointer text-3xl"
+            >
+              <ion-icon name="menu-sharp"></ion-icon>
+            </div>
+            <div class="flex justify-center items-center">
+              <img class="w-40 h-28" src="./Images/logo-1.png" alt="" />
+            </div>
+            <div class="text-2xl">
+              <ion-icon name="search-sharp"></ion-icon>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- container -->
+      <div
+        class="max-w-[1190px] px-4 md:px-6 xl:px-0 mx-auto pt-8 lg:flex space-y-8 lg:space-y-0 lg:space-x-12"
+      >
+        <div class="lg:w-[69%] pb-10 space-y-8">
+          <div class="space-y-5">
+            <p class="text-gray-500">
+              <span class=""><a href="./index.html">Trang chủ</a> </span>
+              > BLOG GAME > Bắn cá V7SB – Cơ hội chinh phục đại dương trong
+              lòng...
+            </p>
+
+            <h2
+              class="w-28 h-8 text-[11px] text-white text-center bg-[#222222] hidden md:block"
+            >
+              BLOG GAME
+            </h2>
+
+            <h2 class="text-3xl lg:text-4xl">
+              Bắn cá V7SB – Cơ hội chinh phục đại dương trong lòng bàn tay
+            </h2>
+
+            <div class="flex justify-between items-center text-[13px]">
+              <p class="text-[12px]">21 Tháng Ba, 2023</p>
+              <div class="flex items-center space-x-5">
+                <div class="flex items-center space-x-1">
+                  <ion-icon name="eye-outline"></ion-icon>
+                  <p>871</p>
+                </div>
+
+                <div class="flex items-center space-x-1">
+                  <ion-icon name="chatbox-outline"></ion-icon>
+                  <p>0</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="flex items-center space-x-3">
+              <ion-icon
+                class="text-2xl bg-[#516EAB] hover:bg-[#748BBC] transition-all duration-200 text-white p-3"
+                name="logo-facebook"
+              ></ion-icon>
+              <ion-icon
+                class="text-2xl bg-[#29C5F6] hover:bg-[#54D1F8] transition-all duration-200 text-white p-3"
+                name="logo-pinterest"
+              ></ion-icon>
+              <ion-icon
+                class="text-2xl bg-[#CA212A] hover:bg-[#D54D55] transition-all duration-200 text-white p-3"
+                name="logo-xing"
+              ></ion-icon>
+              <ion-icon
+                class="text-2xl bg-[#7BBF6A] hover:bg-[#95CC88] transition-all duration-200 text-white p-3"
+                name="logo-whatsapp"
+              ></ion-icon>
+            </div>
+          </div>
+
+          <p>
+            <strong class="text-red-600">Bắn cá V7SB</strong> là sảnh chơi
+            nghiêng phần lớn về tính giải trí cao, giúp anh em thể hiện được tài
+            ngắm bắn chuẩn xác và nổi bật nhờ hình ảnh bắt mắt, âm thanh sống
+            động mỗi lần truy cập. Cùng bài viết dưới đây tìm hiểu kỹ hơn về bắn
+            cá tại <strong class="text-red-600">nhà cái V7SB</strong> ngay nhé.
+          </p>
+
+          <ul class="pl-5 space-y-3 list-disc">
+            <li>
+              <a class="text-blue-500" href=""
+                >Cách chơi bóng rổ ảo, hiểu quả và chuẩn xác nhất năm 2024</a
+              >
+            </li>
+
+            <li>
+              <a class="text-blue-500" href=""
+                >Lý giải điềm báo mơ thấy mưa? Nên đánh số gì dễ trúng nhất</a
+              >
+            </li>
+
+            <li>
+              <a class="text-blue-500" href=""
+                >Nổ hũ Thần Tài V7SB – Con đường chinh phục thưởng tiền tỷ</a
+              >
+            </li>
+
+            <li>
+              <a class="text-blue-500" href=""
+                >Liêng V7SB là gì? Cách chơi bài liêng và bí quyết thắng lớn</a
+              >
+            </li>
+
+            <li>
+              <a class="text-blue-500" href=""
+                >Mậu binh V7SB là gì? Bật mí luật chơi mậu binh anh em cần nắm
+                được</a
+              >
+            </li>
+          </ul>
+
+          <!-- 1 -->
+          <div class="space-y-7">
+            <h2 class="text-2xl lg:text-3xl">
+              Những lợi thế giúp bắn cá V7SB “xưng vương” tại thị trường Việt
+              Nam
+            </h2>
+
+            <!-- img1 -->
+
+            <div class="space-y-6">
+              <p>
+                Sảnh bắn cá đổi thưởng xuất hiện tại hầu hết các nhà cái đang
+                hoạt động tại thị trường Việt Nam. Tuy nhiên, với những lợi thế
+                có “một không hai”, bắn cá V7SB vẫn luôn tự tin chinh phục đông
+                đảo khách hàng, hứa hẹn mang đến cho bạn giây phút trải nghiệm
+                ấn tượng bậc nhất.
+              </p>
+              <div class="space-y-2">
+                <div>
+                  <img src="./Images/banca/1.jpg" alt="" />
+                </div>
+                <p class="text-sm text-gray-600">
+                  <i>
+                    Bắn cá nhà cái V7SB sở hữu những điểm nhấn vô cùng cuốn hút
+                  </i>
+                </p>
+              </div>
+            </div>
+
+            <ul class="pl-5 space-y-3 list-disc">
+              <li>
+                Nhà cái <strong>V7SB</strong> cực kỳ chú trọng vào chất lượng
+                hình ảnh sắc nét, rõ ràng, hiệu ứng 3D ấn tượng kết hợp âm thanh
+                sống động, chân thực vô cùng hấp dẫn.
+              </li>
+              <li>
+                Cung cấp cho người chơi đa dạng chủ đề bắn cá như bắn cá xèng,
+                bắn cá tiên, bắn cá thần tà, Hero Fishing, Bắn cá vui vẻ, FACHAI
+                Fishing, vua săn cá, bắn cá rồng,…
+              </li>
+              <li>
+                Thường xuyên tung ra khuyến mãi, ưu đãi mỗi ngày, mỗi tuần giúp
+                tăng thêm trải nghiệm cho thành viên.
+              </li>
+              <li>
+                Tích hợp kho vũ khí hiện đại, hệ thống đạn dược tối tân, hỗ trợ
+                người chơi có thể tiêu diệt mục tiêu trong vòng một nốt nhạc.
+              </li>
+              <li>
+                Ngay khi mục tiêu được hạ gục, xu thưởng sẽ được cộng vào tài
+                khoản thành viên và bạn có thể rút về tài khoản ngân hàng bất cứ
+                lúc nào, chỉ cần đáp ứng hạn mức tối thiểu theo yêu cầu của nhà
+                cái.
+              </li>
+              <li>
+                Bảo mật thông tin tuyệt đối, sử dụng công nghệ mã hoá, tường lửa
+                nhiều lớp, cam kết không tiết lộ thông tin cho bất kỳ bên thứ 3
+                nào khác.
+              </li>
+            </ul>
+
+            <div class="bg-gray-50 w-full h-20 flex items-center space-x-10">
+              <p class="h-full border-[3px] border-gray-800"></p>
+              <p class="font-bold text-lg">
+                <span>Xem Thêm </span> &nbsp;
+                <span class="text-teal-500 underline">
+                  Lý giải điềm báo mơ thấy mưa? Nên đánh số gì dễ trúng
+                  nhất</span
+                >
+              </p>
+            </div>
+          </div>
+
+          <!-- 2 -->
+          <div class="space-y-7">
+            <h2 class="text-2xl lg:text-3xl">
+              Bắn cá V7SB mang đến cho người chơi những chủ đề nào?
+            </h2>
+
+            <p>
+              Sảnh bắn cá V7SB cung cấp đa dạng chủ đề, không dừng lại ở một
+              sảnh chơi cụ thể mà liên tục cập nhật phiên bản mới. Điều này giúp
+              thành viên có được giây phút thư giãn đúng nghĩa và không bao giờ
+              nhàm chán mỗi lần truy cập.
+            </p>
+
+            <ul class="pl-5 list-disc space-y-3">
+              <li>
+                Bắn cá xèng: Sảnh bắn cá V7SB này không chỉ tạo ấn tượng nhờ
+                hình ảnh 3D sắc nét, âm thanh chân thật mà còn hỗ trợ đa dạng
+                các tính năng tuyệt vời như hỗ trợ người chơi săn cá, bắn cá
+                ngay trên giao diện, lựa chọn con mồi…
+              </li>
+              <li>
+                Bắn cá thần Tài: Sảnh chơi này quy tụ những tay săn cá lão làng,
+                anh em có thể học hỏi kinh nghiệm nhanh chóng và thành công tiêu
+                diệt mục tiêu trong vòng một nốt nhạc.
+              </li>
+              <li>
+                Vua săn cá: Trên màn hình sẽ xuất hiện rất nhiều mục tiêu khác
+                nhau để anh em lựa chọn. Bên cạnh đó, bạn còn có thể lựa chọn
+                phòng chơi như tập sự, ao làng, đại dương, cao thủ… để thỏa sức
+                đam mê.
+              </li>
+              <li>
+                Bắn cá hải tặc: Với những người yêu thích mạo hiểm, phiêu lưu và
+                muốn giành về chiến thắng khủng thì sảnh bắn cá V7SB này là sự
+                lựa chọn vô cùng tuyệt vời. Anh em có quyền lựa chọn các cấp độ
+                khác nhau như sơ cấp, trung tâm, cao cấp với lượng đạn tương
+                ứng.
+              </li>
+              <li>
+                Bắn cá săn rồng vàng: Không chỉ dừng lại ở bắn cá đỉnh cao mà
+                bạn còn có thể săn quà khủng tại các phòng từ thấp đến cao như
+                tập sự, phòng trùm…
+              </li>
+              <li>
+                Bắn cá tiên: Sảnh bắn cá V7SB này cung cấp 3 phòng chính là ao
+                làng, đại dương, đại gia. Tỷ lệ trả thưởng sẽ tương ứng với mức
+                cược mà anh em bỏ ra nên hãy tận dụng tối đa cơ hội để nhận phần
+                quà đầy giá trị ngay hôm nay.
+              </li>
+            </ul>
+
+            <div class="bg-gray-50 w-full h-20 flex items-center space-x-10">
+              <p class="h-full border-[3px] border-gray-800"></p>
+              <p class="font-bold text-lg">
+                <span>Xem Thêm </span> &nbsp;
+                <span class="text-teal-500 underline">
+                  Liêng V7SB là gì? Cách chơi bài liêng và bí quyết thắng
+                  lớn</span
+                >
+              </p>
+            </div>
+
+            <h2 class="text-2xl lg:text-3xl">
+              Cách chơi bắn cá V7SB với các bước chi tiết từ A – Z
+            </h2>
+
+            <!-- img2 -->
+            <div class="space-y-6">
+              <p>
+                Để trải nghiệm sảnh bắn cá V7SB, người chơi cần thực hiện những
+                thao tác được hướng dẫn cụ thể như sau:
+              </p>
+              <div class="space-y-2">
+                <div>
+                  <img src="./Images/banca/2.jpg" alt="" />
+                </div>
+                <p>Chỉ với 4 bước đơn giản, anh em đã có thể thỏa sức đam mê</p>
+              </div>
+            </div>
+
+            <ul class="list-disc pl-5 space-y-3">
+              <li>
+                Bước 1: Tiến hành lựa chọn đường link truy cập trang chủ V7SB uy
+                tín, sau đó đăng ký/đăng nhập tài khoản thành viên hợp lệ.
+              </li>
+              <li>
+                Bước 2: Bạn cần nạp tiền vào tài khoản thành viên để hưởng ưu
+                đãi nạp tiền đầy hấp dẫn và đáp ứng đủ điều kiện tham gia vào
+                sảnh bắn cá tại nhà cái V7SB.
+              </li>
+              <li>
+                Bước 3: Lúc này, người chơi quay trở lại giao diện nhà cái, nhấn
+                vào mục Bắn cá, chọn chủ đề, phòng chơi, mức cược phù hợp để bắt
+                đầu trải nghiệm.
+              </li>
+              <li>
+                Bước 4: Lựa chọn mục tiêu xuất hiện trên màn hình, sử dụng vũ
+                khí, đạn dược để tiêu diệt và nhận thưởng khi “con mồi” bị hạ
+                gục.
+              </li>
+            </ul>
+          </div>
+          <!-- 3 -->
+          <div class="space-y-7">
+            <h2 class="text-2xl lg:text-3xl">
+              Tổng hợp ưu đãi độc quyền chỉ có tại sảnh bắn cá nhà cái V7SB
+            </h2>
+
+            <!-- img3 -->
+            <div class="space-y-6">
+              <p>
+                Tham gia vào sảnh bắn cá tại nhà cái V7SB, ngoài những giây phút
+                thư giãn đầy ấn tượng thì anh em còn có cơ hội khám phá hàng
+                loạt ưu đãi tuyệt vời như sau:
+              </p>
+              <div class="space-y-2">
+                <div>
+                  <img src="./Images/banca/3.jpg" alt="" />
+                </div>
+                <p>
+                  Nhà cái V7SB thường xuyên tung ra ưu đãi cực khủng tại sảnh
+                  bắn cá
+                </p>
+              </div>
+            </div>
+
+            <ul class="pl-5 list-disc space-y-3">
+              <li>
+                Hệ thống nhà cái sẽ dành tặng cho thành viên mới code tân thủ vô
+                cùng hấp dẫn. Bạn có thể sử dụng ưu đãi này để tiêu diệt mục
+                tiêu, nhận xu thưởng về tài khoản.
+              </li>
+              <li>
+                Tổ chức mini game, giải đấu bắn cá quy tụ cao thủ lão lãng giúp
+                anh em mãn nhãn cùng những pha tấn công, tiêu diệt mục tiêu xuất
+                thần.
+              </li>
+              <li>
+                Nhà cái mở thưởng bắn cá jackpot với tiền thắng cực khủng, có
+                thể lên đến vài trăm triệu đồng đến vài tỷ đồng.
+              </li>
+            </ul>
+
+            <div class="space-y-5">
+              <div class="bg-gray-50 w-full h-20 flex items-center space-x-10">
+                <p class="h-full border-[3px] border-gray-800"></p>
+                <p class="font-bold text-lg">
+                  <span>Xem Thêm </span> &nbsp;
+                  <span class="text-teal-500 underline">
+                    Cách chơi bóng rổ ảo, hiểu quả và chuẩn xác nhất năm
+                    2024</span
+                  >
+                </p>
+              </div>
+              <p>
+                Bắn cá V7SB xứng đáng là sảnh chơi ấn tượng mà anh em nên thử
+                sức một lần. Nhanh tay chọn cho mình chủ đề yêu thích, sử dụng
+                vũ khí tối tân và hạ gục mục tiêu một cách chuẩn xác ngay hôm
+                nay.
+              </p>
+            </div>
+          </div>
+          <!-- -==================>>>>>>>>>>>>>> -->
+        </div>
+
+        <div class="lg:w-[31%] space-y-8 pb-10">
+          <div class="flex justify-center items-center">
+            <img
+              class="w-full md:w-7/12 lg:w-full"
+              src="./Images/rh1.jpg"
+              alt=""
+            />
+          </div>
+
+          <div class="border-b-[3px] border-gray-800">
+            <h4 class="bg-gray-800 text-white text-center py-1 w-28">
+              Hướng Dẫn
+            </h4>
+          </div>
+
+          <div
+            class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-2 gap-5 text-sm"
+          >
+            <div>
+              <a class="space-y-2" href="./nap-tien.html">
+                <div>
+                  <img src="./Images/rh2.jpg" alt="" />
+                </div>
+                <p class="hover:text-red-600 transition-all duration-100">
+                  Top 5 cách nạp tiền V7SB không chỉ nhanh mà còn...
+                </p>
+              </a>
+            </div>
+
+            <div>
+              <a class="space-y-2" href="./rut-tien.html">
+                <div>
+                  <img src="./Images/rh3.jpg" alt="" />
+                </div>
+                <p class="hover:text-red-600 transition-all duration-100">
+                  Rút tiền V7SB – 3 bước thực hiện thành công nhanh...
+                </p>
+              </a>
+            </div>
+
+            <div>
+              <a class="space-y-2" href="./tai-app.html">
+                <div>
+                  <img src="./Images/rh5.jpg" alt="" />
+                </div>
+                <p class="hover:text-red-600 transition-all duration-100">
+                  Tải app V7SB – Trải nghiệm mượt mà, đa dạng sảnh...
+                </p>
+              </a>
+            </div>
+
+            <div>
+              <a class="space-y-2" href="./dang-nhap.html">
+                <div>
+                  <img src="./Images/rh4.jpg" alt="" />
+                </div>
+                <p class="hover:text-red-600 transition-all duration-100">
+                  Hướng dẫn các bước đăng nhập V7SB thành công ngoài mong...
+                </p>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- footer -->
+      <div class="bg-[#222222] text-[#FFFFFF]">
+        <div
+          class="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-[1190px] px-4 md:px-6 xl:px-0 mx-auto pt-16 pb-20"
+        >
+          <div class="space-y-8">
+            <div class="">
+              <img class="w-full h-48 p-4 border border-gray-700 rounded" src="./Images/logo-1.png" alt="" />
+            </div>
+            <div class="space-y-4">
+              <p>
+                V7SB - Là một trong những nhà cái uy tín hàng đầu Châu Á, với số
+                lượng người chơi khủng nhất năm 2023.
+              </p>
+
+              <div class="grid grid-cols-5 gap-4 text-xl">
+                <div
+                  class="w-10 h-10 flex justify-center items-center bg-[#292929] border-gray-700 border cursor-pointer"
+                >
+                  <ion-icon name="logo-linkedin"></ion-icon>
+                </div>
+                <div
+                  class="w-10 h-10 flex justify-center items-center bg-[#292929] border-gray-700 border cursor-pointer"
+                >
+                  <ion-icon name="logo-pinterest"></ion-icon>
+                </div>
+                <div
+                  class="w-10 h-10 flex justify-center items-center bg-[#292929] border-gray-700 border cursor-pointer"
+                >
+                  <ion-icon name="logo-reddit"></ion-icon>
+                </div>
+                <div
+                  class="w-10 h-10 flex justify-center items-center bg-[#292929] border-gray-700 border cursor-pointer"
+                >
+                  <ion-icon name="logo-vimeo"></ion-icon>
+                </div>
+                <div
+                  class="w-10 h-10 flex justify-center items-center bg-[#292929] border-gray-700 border cursor-pointer"
+                >
+                  <ion-icon name="logo-xing"></ion-icon>
+                </div>
+
+    
+              </div>
+            </div>
+          </div>
+          <div class="space-y-8">
+            <div class=" ">
+              <h4 class="text-lg font-semibold">
+                <span class="">BÀI VIẾT PHỔ BIẾN</span>
+              </h4>
+            </div>
+
+            <div class="space-y-4">
+              <div>
+                <a class="flex space-x-1" href="./huong-dan.html">
+                  <div>
+                    <img class="w-11/12" src="./Images/rh4.jpg" alt="" />
+                  </div>
+                  <div class="space-y-2 xl:text-base text-sm">
+                    <p>Hướng dẫn các bước đăng nhập V7SB thành công...</p>
+                    <p class="text-xs xl:text-sm text-gray-400">
+                      21 Tháng Ba, 2023
+                    </p>
+                  </div>
+                </a>
+              </div>
+
+              <div>
+                <a class="flex space-x-1" href="./rut-tien.html">
+                  <div>
+                    <img class="w-11/12" src="./Images/rh3.jpg" alt="" />
+                  </div>
+                  <div class="space-y-2">
+                    <p class="xl:text-base text-sm">
+                      Rút tiền V7SB – 3 bước thực hiện thành công nhanh...
+                    </p>
+                    <p class="text-xs xl:text-sm text-gray-400">
+                      21 Tháng Ba, 2023
+                    </p>
+                  </div>
+                </a>
+              </div>
+
+              <div>
+                <a class="flex space-x-1" href="./tai-app.html">
+                  <div>
+                    <img class="w-11/12" src="./Images/rh5.jpg" alt="" />
+                  </div>
+                  <div class="space-y-2">
+                    <p class="xl:text-base text-sm">
+                      Tải app V7SB – Trải nghiệm mượt mà, đa dạng sảnh...
+                    </p>
+                    <p class="text-xs xl:text-sm text-gray-400">
+                      20 Tháng Ba, 2023
+                    </p>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="space-y-8">
+            <div class=" ">
+              <h4 class="text-lg font-semibold">
+                <span class="">MỤC XEM NHIỀU</span>
+              </h4>
+            </div>
+            <ul class="space-y-3">
+              <li>
+                <a
+                  class="flex justify-between items-center hover:text-red-500 transition-all duration-75"
+                  href="./tin-tuc.html"
+                  ><span class="">TIN TỨC</span><span class="">13</span></a
+                >
+              </li>
+              <li>
+                <a
+                  class="flex justify-between items-center hover:text-red-500 transition-all duration-75"
+                  href="./blog-game.html"
+                  ><span class="">BLOG GAME</span><span class="">6</span></a
+                >
+              </li>
+              <li>
+                <a
+                  class="flex justify-between items-center hover:text-red-500 transition-all duration-75"
+                  href="./huong-dan.html"
+                  ><span class="">HƯỚNG DẪN V7SB</span
+                  ><span class="">5</span></a
+                >
+              </li>
+              <li>
+                <a
+                  class="flex justify-between items-center hover:text-red-500 transition-all duration-75"
+                  href="./khuyen-mai.html"
+                  ><span class="">KHUYẾN MÃI</span><span class="">1</span></a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="bg-[#0D0D0D] py-3">
+          <div
+            class="max-w-[1190px] px-4 md:px-6 xl:px-0 mx-auto text-sm text-gray-300 space-y-4 lg:space-y-0 lg:flex lg:justify-between lg:items-center"
+          >
+            <div class="lg:block hidden">© v7sb.mom</div>
+            <ul
+              class="flex flex-wrap justify-center *:py-1 space-x-4 items-center"
+            >
+              <li>
+                <a
+                  class="hover:text-red-500 transition-all duration-75"
+                  href="#"
+                  >Trang Chủ</a
+                >
+              </li>
+              <li>
+                <a
+                  class="hover:text-red-500 transition-all duration-75"
+                  href="#"
+                  >Chính sách bảo mật</a
+                >
+              </li>
+              <li>
+                <a
+                  class="hover:text-red-500 transition-all duration-75"
+                  href="#"
+                  >Điều Khoản Điều Kiện</a
+                >
+              </li>
+              <li>
+                <a
+                  class="hover:text-red-500 transition-all duration-75"
+                  href="#"
+                  >Chơi có trách nhiệm</a
+                >
+              </li>
+              <li>
+                <a
+                  class="hover:text-red-500 transition-all duration-75"
+                  href="#"
+                  >Quyền riêng tư</a
+                >
+              </li>
+              <li>
+                <a
+                  class="hover:text-red-500 transition-all duration-75"
+                  href="#"
+                  >Liên Hệ</a
+                >
+              </li>
+              <li>
+                <a
+                  class="hover:text-red-500 transition-all duration-75"
+                  href="#"
+                  >Sitemap</a
+                >
+              </li>
+              <li>
+                <a
+                  class="hover:text-red-500 transition-all duration-75"
+                  href="#"
+                  >robots.txt</a
+                >
+              </li>
+            </ul>
+            <div class="lg:hidden text-center">© v7sb.mom</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="keywords" content="v7sb, Đá Gà, Xóc Đĩa, Bầu Cua, Nổ Hũ, Bắn Cá, Sòng Bài, Sicbo, Xổ Số, Baccarat">
+    <meta
+      name="description"
+      content="Khuyến mãi trên trang web của v7sb cung cấp cho người chơi nhiều ưu đãi hấp dẫn và các chương trình khuyến mãi đa dạng."
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="icon" href="./Images/logo-1.png">
+    <title>KHUYẾN MÃI - V7SB</title>
+  </head>
+  <body>
+    <div
+      class="styleNav h-screen fixed -left-full top-0 bg-[#3689AA] md:hidden z-30 inset-0 bg-opacity-95"
+    >
+      <div class="px-3 pt-4 space-y-12">
+        <div class="flex items-center justify-between">
+          <div class="text-xl flex items-center space-x-2">
+            <div
+              class="w-10 h-10 flex justify-center items-center text-white cursor-pointer"
+            >
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </div>
+            <div
+              class="w-10 h-10 flex justify-center items-center text-white cursor-pointer"
+            >
+              <ion-icon name="logo-pinterest"></ion-icon>
+            </div>
+            <div
+              class="w-10 h-10 flex justify-center items-center text-white cursor-pointer"
+            >
+              <ion-icon name="logo-reddit"></ion-icon>
+            </div>
+            <div
+              class="w-10 h-10 flex justify-center items-center text-white cursor-pointer"
+            >
+              <ion-icon name="logo-vimeo"></ion-icon>
+            </div>
+            <div
+              class="w-10 h-10 flex justify-center items-center text-white cursor-pointer"
+            >
+              <ion-icon name="logo-xing"></ion-icon>
+            </div>
+          </div>
+          <div class="text-4xl text-white">
+            <ion-icon onclick="handleHide()" name="close"></ion-icon>
+          </div>
+        </div>
+        <div>
+          <div
+            class="font-bold uppercase flex flex-col justify-center pl-2 space-y-4 text-white"
+          >
+            <a class="" href="./index.html"> Trang chủ </a>
+            <a class="" href="./huong-dan.html"> HƯỚNG DẪN V7SB </a>
+            <a class="" href="./khuyen-mai.html"> KHUYẾN MÃI </a>
+            <a class="" href="./blog-game.html"> BLOG GAME </a>
+            <a class="" href="./tin-tuc.html"> TIN TỨC V7SB </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="">
+      <!-- header -->
+      <div>
+        <div class="w-full shadow hidden md:block">
+          <div class="max-w-[1190px] mx-auto pb-[12px] px-4 md:px-6 xl:px-0">
+            <div class="flex items-center justify-end space-x-8 py-5">
+              <div class="flex items-center w-[28%] h-28">
+                <img class="w-full" src="./Images/logo-1.png" alt="" class=""/>
+              </div>
+              <div class="w-[68%]">
+                <img class="w-full" src="./Images/banner-v7sb.png" alt="" />
+              </div>
+            </div>
+
+            <div class="flex justify-between items-center">
+              <div class="font-bold uppercase text-sm lg:text-base">
+                <a
+                  class="hover:border-b-4 transition-all duration-75 hover:border-red-600 bottom-0 pb-4 px-4"
+                  href="./index.html"
+                >
+                  Trang chủ
+                </a>
+                <a
+                  class="hover:border-b-4 transition-all duration-75 hover:border-red-600 bottom-0 pb-4 px-4"
+                  href="./huong-dan.html"
+                >
+                  HƯỚNG DẪN V7SB
+                </a>
+                <a
+                  class="border-red-600 border-b-4 bottom-0 pb-4 px-4"
+                  href="./khuyen-mai.html"
+                >
+                  KHUYẾN MÃI
+                </a>
+                <a
+                  class="hover:border-b-4 transition-all duration-75 hover:border-red-600 bottom-0 pb-4 px-4"
+                  href="./blog-game.html"
+                >
+                  BLOG GAME
+                </a>
+                <a
+                  class="hover:border-b-4 transition-all duration-75 hover:border-red-600 bottom-0 pb-4 px-4"
+                  href="./tin-tuc.html"
+                >
+                  TIN TỨC V7SB
+                </a>
+              </div>
+              <div class="text-xl lg:text-2xl font-bold pr-4">
+                <ion-icon name="search-sharp"></ion-icon>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="md:hidden xl:px-0">
+          <div class="flex justify-center items-center py-2 px-3">
+            <img src="./Images/banner-v7sb.png" alt="" />
+          </div>
+          <div
+            class="flex justify-between items-center py-2 px-4 md:px-6 text-white bg-[#222222]"
+          >
+          <div onclick="handleShow()" id="ClickMenu" class="cursor-pointer text-3xl">
+            <ion-icon name="menu-sharp"></ion-icon>
+          </div>
+            <div class="flex justify-center items-center">
+              <img class="w-40 h-28" src="./Images/logo-1.png" alt="" />
+            </div>
+            <div class="text-2xl">
+              <ion-icon name="search-sharp"></ion-icon>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- container -->
+      <div
+        class="max-w-[1190px] px-4 md:px-6 xl:px-0 mx-auto pt-6 md:pt-4 space-y-8"
+      >
+        <div class="space-y-4">
+          <p class="text-gray-500">
+            <span class=""><a href="./index.html">Trang chủ</a> </span>
+            > KHUYẾN MÃI
+          </p>
+          <div class="flex items-center justify-between">
+            <h2 class="text-3xl lg:text-4xl"><b>KHUYẾN MÃI</b></h2>
+            <h2
+              class="w-28 text-white text-center bg-[#222222] hidden md:block"
+            >
+              Mới nhất
+            </h2>
+          </div>
+
+          <p>
+            Chuyên mục “<strong class="text-red-500">Khuyến mãi</strong>” trên
+            trang web của <strong class="text-red-500">v7sb </strong>mang đến
+            cho người chơi nhiều cơ hội nhận được những ưu đãi hấp dẫn và đa
+            dạng. khách hàng có thể tham gia các chương trình khuyến mãi đăng
+            ký, nạp tiền, hoàn tiền và các chương trình khuyến mãi đặc biệt cho
+            các sự kiện lớn như Tết Nguyên Đán, Giáng sinh và các ngày lễ khác.
+          </p>
+
+          <p>
+            Nhà cái v7sb thường xuyên cập nhật các chương trình khuyến mãi mới
+            nhất để khách hàng không bỏ lỡ bất kỳ cơ hội nào. Chuyên mục “Khuyến
+            mãi” luôn cung cấp cho người chơi các thông tin chi tiết về các điều
+            kiện và quy định từng chương trình khuyến mãi, giúp họ hiểu rõ hơn
+            về cách thức tham gia và đạt được các ưu đãi. Ngoài ra, các chương
+            trình khuyến mãi trong chuyên mục này được thiết kế để đáp ứng nhu
+            cầu của người chơi, mang đến những lợi ích tối đa cho họ.
+          </p>
+        </div>
+      </div>
+      <div
+        class="max-w-[1190px] px-4 md:px-6 xl:px-0 mx-auto pt-8 lg:flex space-y-8 lg:space-y-0 lg:space-x-12"
+      >
+        <div class="lg:w-[69%] grid md:grid-cols-2 gap-8 h-[100%] pb-10">
+          <div>
+            <a class="space-y-3 text-xl" href="./khuyen-mai-tong-hop.html">
+              <div class="w-full">
+                <img class="w-full" src="./Images/khuyen1.jpg" alt="" />
+              </div>
+              <div class="space-y-1">
+                <p class="hover:text-red-600 transition-all duration-100">
+                  Tổng hợp tất cả các gói khuyến mãi V7SB siêu hấp...
+                </p>
+                <div class="flex justify-between">
+                  <p class="text-sm">
+                    <span class="font-bold">v7sb</span> - 21 Tháng Ba, 2023
+                  </p>
+                  <div>
+                    <img src="./Images/iconSMS.png" alt="" />
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <!-- -==================>>>>>>>>>>>>>> -->
+        </div>
+
+        <div class="lg:w-[31%] space-y-8 pb-10">
+          <div class="flex justify-center items-center">
+            <img
+              class="w-full md:w-7/12 lg:w-full"
+              src="./Images/rh1.jpg"
+              alt=""
+            />
+          </div>
+
+          <div class="border-b-[3px] border-gray-800">
+            <h4 class="bg-gray-800 text-white text-center py-1 w-28">
+              Hướng Dẫn
+            </h4>
+          </div>
+
+          <div
+            class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-2 gap-5 text-sm"
+          >
+            <div>
+              <a class="space-y-2" href="./nap-tien.html">
+                <div>
+                  <img src="./Images/rh2.jpg" alt="" />
+                </div>
+                <p class="hover:text-red-600 transition-all duration-100">
+                  Top 5 cách nạp tiền V7SB không chỉ nhanh mà còn...
+                </p>
+              </a>
+            </div>
+
+            <div>
+              <a class="space-y-2" href="./rut-tien.html">
+                <div>
+                  <img src="./Images/rh3.jpg" alt="" />
+                </div>
+                <p class="hover:text-red-600 transition-all duration-100">
+                  Rút tiền V7SB – 3 bước thực hiện thành công nhanh...
+                </p>
+              </a>
+            </div>
+
+            <div>
+              <a class="space-y-2" href="./tai-app.html">
+                <div>
+                  <img src="./Images/rh5.jpg" alt="" />
+                </div>
+                <p class="hover:text-red-600 transition-all duration-100">
+                  Tải app V7SB – Trải nghiệm mượt mà, đa dạng sảnh...
+                </p>
+              </a>
+            </div>
+
+            <div>
+              <a class="space-y-2" href="./dang-nhap.html">
+                <div>
+                  <img src="./Images/rh4.jpg" alt="" />
+                </div>
+                <p class="hover:text-red-600 transition-all duration-100">
+                  Hướng dẫn các bước đăng nhập V7SB thành công ngoài mong...
+                </p>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- footer -->
+      <div class="bg-[#222222] text-[#FFFFFF]">
+        <div
+          class="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-[1190px] px-4 md:px-6 xl:px-0 mx-auto pt-16 pb-20"
+        >
+          <div class="space-y-8">
+            <div class="">
+              <img class="w-full h-48 p-4 border border-gray-700 rounded" src="./Images/logo-1.png" alt="" />
+            </div>
+            <div class="space-y-4">
+              <p>
+                V7SB - Là một trong những nhà cái uy tín hàng đầu Châu Á, với số
+                lượng người chơi khủng nhất năm 2023.
+              </p>
+
+              <div class="grid grid-cols-5 gap-4 text-xl">
+                <div
+                  class="w-10 h-10 flex justify-center items-center bg-[#292929] border-gray-700 border cursor-pointer"
+                >
+                  <ion-icon name="logo-linkedin"></ion-icon>
+                </div>
+                <div
+                  class="w-10 h-10 flex justify-center items-center bg-[#292929] border-gray-700 border cursor-pointer"
+                >
+                  <ion-icon name="logo-pinterest"></ion-icon>
+                </div>
+                <div
+                  class="w-10 h-10 flex justify-center items-center bg-[#292929] border-gray-700 border cursor-pointer"
+                >
+                  <ion-icon name="logo-reddit"></ion-icon>
+                </div>
+                <div
+                  class="w-10 h-10 flex justify-center items-center bg-[#292929] border-gray-700 border cursor-pointer"
+                >
+                  <ion-icon name="logo-vimeo"></ion-icon>
+                </div>
+                <div
+                  class="w-10 h-10 flex justify-center items-center bg-[#292929] border-gray-700 border cursor-pointer"
+                >
+                  <ion-icon name="logo-xing"></ion-icon>
+                </div>
+
+    
+              </div>
+            </div>
+          </div>
+          <div class="space-y-8">
+            <div class=" ">
+              <h4 class="text-lg font-semibold">
+                <span class="">BÀI VIẾT PHỔ BIẾN</span>
+              </h4>
+            </div>
+
+            <div class="space-y-4">
+              <div>
+                <a class="flex space-x-1" href="./huong-dan.html">
+                  <div>
+                    <img class="w-11/12" src="./Images/rh4.jpg" alt="" />
+                  </div>
+                  <div class="space-y-2 xl:text-base text-sm">
+                    <p>Hướng dẫn các bước đăng nhập V7SB thành công...</p>
+                    <p class="text-xs xl:text-sm text-gray-400">
+                      21 Tháng Ba, 2023
+                    </p>
+                  </div>
+                </a>
+              </div>
+
+              <div>
+                <a class="flex space-x-1" href="./rut-tien.html">
+                  <div>
+                    <img class="w-11/12" src="./Images/rh3.jpg" alt="" />
+                  </div>
+                  <div class="space-y-2">
+                    <p class="xl:text-base text-sm">
+                      Rút tiền V7SB – 3 bước thực hiện thành công nhanh...
+                    </p>
+                    <p class="text-xs xl:text-sm text-gray-400">
+                      21 Tháng Ba, 2023
+                    </p>
+                  </div>
+                </a>
+              </div>
+
+              <div>
+                <a class="flex space-x-1" href="./tai-app.html">
+                  <div>
+                    <img class="w-11/12" src="./Images/rh5.jpg" alt="" />
+                  </div>
+                  <div class="space-y-2">
+                    <p class="xl:text-base text-sm">
+                      Tải app V7SB – Trải nghiệm mượt mà, đa dạng sảnh...
+                    </p>
+                    <p class="text-xs xl:text-sm text-gray-400">
+                      20 Tháng Ba, 2023
+                    </p>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="space-y-8">
+            <div class=" ">
+              <h4 class="text-lg font-semibold">
+                <span class="">MỤC XEM NHIỀU</span>
+              </h4>
+            </div>
+            <ul class="space-y-3">
+              <li>
+                <a
+                  class="flex justify-between items-center hover:text-red-500 transition-all duration-75"
+                  href="./tin-tuc.html"
+                  ><span class="">TIN TỨC</span><span class="">13</span></a
+                >
+              </li>
+              <li>
+                <a
+                  class="flex justify-between items-center hover:text-red-500 transition-all duration-75"
+                  href="./blog-game.html"
+                  ><span class="">BLOG GAME</span><span class="">6</span></a
+                >
+              </li>
+              <li>
+                <a
+                  class="flex justify-between items-center hover:text-red-500 transition-all duration-75"
+                  href="./huong-dan.html"
+                  ><span class="">HƯỚNG DẪN V7SB</span
+                  ><span class="">5</span></a
+                >
+              </li>
+              <li>
+                <a
+                  class="flex justify-between items-center hover:text-red-500 transition-all duration-75"
+                  href="./khuyen-mai.html"
+                  ><span class="">KHUYẾN MÃI</span><span class="">1</span></a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="bg-[#0D0D0D] py-3">
+          <div
+            class="max-w-[1190px] px-4 md:px-6 xl:px-0 mx-auto text-sm text-gray-300 space-y-4 lg:space-y-0 lg:flex lg:justify-between lg:items-center"
+          >
+            <div class="lg:block hidden">© v7sb.mom</div>
+            <ul
+              class="flex flex-wrap justify-center *:py-1 space-x-4 items-center"
+            >
+              <li>
+                <a
+                  class="hover:text-red-500 transition-all duration-75"
+                  href="#"
+                  >Trang Chủ</a
+                >
+              </li>
+              <li>
+                <a
+                  class="hover:text-red-500 transition-all duration-75"
+                  href="#"
+                  >Chính sách bảo mật</a
+                >
+              </li>
+              <li>
+                <a
+                  class="hover:text-red-500 transition-all duration-75"
+                  href="#"
+                  >Điều Khoản Điều Kiện</a
+                >
+              </li>
+              <li>
+                <a
+                  class="hover:text-red-500 transition-all duration-75"
+                  href="#"
+                  >Chơi có trách nhiệm</a
+                >
+              </li>
+              <li>
+                <a
+                  class="hover:text-red-500 transition-all duration-75"
+                  href="#"
+                  >Quyền riêng tư</a
+                >
+              </li>
+              <li>
+                <a
+                  class="hover:text-red-500 transition-all duration-75"
+                  href="#"
+                  >Liên Hệ</a
+                >
+              </li>
+              <li>
+                <a
+                  class="hover:text-red-500 transition-all duration-75"
+                  href="#"
+                  >Sitemap</a
+                >
+              </li>
+              <li>
+                <a
+                  class="hover:text-red-500 transition-all duration-75"
+                  href="#"
+                  >robots.txt</a
+                >
+              </li>
+            </ul>
+            <div class="lg:hidden text-center">© v7sb.mom</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>

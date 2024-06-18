@@ -1,0 +1,13 @@
+*{
+    font-family: sans-serif;
+}
+h2{
+    font-size: 30px;
+    line-height: 36px;
+}
+
+.styleNav{
+    transition: all 0.8s ease;
+    left: -100%;
+    width: 100%;
+}

@@ -1,0 +1,776 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="keywords" content="v7sb, Đá Gà, Xóc Đĩa, Bầu Cua, Nổ Hũ, Bắn Cá, Sòng Bài, Sicbo, Xổ Số, Baccarat">
+    <meta name="description" content="Thay vì miệt mài cá cược nhưng lợi nhuận thu được không như mong đợi thì anh em có thể hợp tác làm đại lý V7SB, nhận chiết khấu hoa hồng siêu khủng">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="icon" href="./Images/logo-1.png">
+    <title>Đại lý V7SB – Hưởng chiết khấu hoa hồng khủng từ 30% - 50%</title>
+  </head>
+  <body>
+    <div
+      class="styleNav h-screen fixed -left-full top-0 bg-[#3689AA] md:hidden z-30 inset-0 bg-opacity-95"
+    >
+      <div class="px-3 pt-4 space-y-12">
+        <div class="flex items-center justify-between">
+          <div class="text-xl flex items-center space-x-2">
+            <div
+              class="w-10 h-10 flex justify-center items-center text-white cursor-pointer"
+            >
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </div>
+            <div
+              class="w-10 h-10 flex justify-center items-center text-white cursor-pointer"
+            >
+              <ion-icon name="logo-pinterest"></ion-icon>
+            </div>
+            <div
+              class="w-10 h-10 flex justify-center items-center text-white cursor-pointer"
+            >
+              <ion-icon name="logo-reddit"></ion-icon>
+            </div>
+            <div
+              class="w-10 h-10 flex justify-center items-center text-white cursor-pointer"
+            >
+              <ion-icon name="logo-vimeo"></ion-icon>
+            </div>
+            <div
+              class="w-10 h-10 flex justify-center items-center text-white cursor-pointer"
+            >
+              <ion-icon name="logo-xing"></ion-icon>
+            </div>
+          </div>
+          <div class="text-4xl text-white">
+            <ion-icon onclick="handleHide()" name="close"></ion-icon>
+          </div>
+        </div>
+        <div>
+          <div
+            class="font-bold uppercase flex flex-col justify-center pl-2 space-y-4 text-white"
+          >
+            <a class="" href="./index.html"> Trang chủ </a>
+            <a class="" href="./huong-dan.html"> HƯỚNG DẪN V7SB </a>
+            <a class="" href="./khuyen-mai.html"> KHUYẾN MÃI </a>
+            <a class="" href="./blog-game.html"> BLOG GAME </a>
+            <a class="" href="./tin-tuc.html"> TIN TỨC V7SB </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="">
+      <!-- header -->
+      <div>
+        <div class="w-full shadow hidden md:block">
+          <div class="max-w-[1190px] mx-auto pb-[12px] px-4 md:px-6 xl:px-0">
+            <div class="flex items-center justify-end space-x-8 py-5">
+              <div class="flex items-center w-[28%] h-28">
+                <img class="w-full" src="./Images/logo-1.png" alt="" class=""/>
+              </div>
+              <div class="w-[68%]">
+                <img class="w-full" src="./Images/banner-v7sb.png" alt="" />
+              </div>
+            </div>
+
+            <div class="flex justify-between items-center">
+              <div class="font-bold uppercase text-sm lg:text-base">
+                <a
+                  class="hover:border-b-4 transition-all duration-75 hover:border-red-600 bottom-0 pb-4 px-4"
+                  href="./index.html"
+                >
+                  Trang chủ
+                </a>
+                <a
+                  class="hover:border-b-4 transition-all duration-75 hover:border-red-600 bottom-0 pb-4 px-4"
+                  href="./huong-dan.html"
+                >
+                  HƯỚNG DẪN V7SB
+                </a>
+                <a
+                  class="hover:border-b-4 transition-all duration-75 hover:border-red-600 bottom-0 pb-4 px-4"
+                  href="./khuyen-mai.html"
+                >
+                  KHUYẾN MÃI
+                </a>
+                <a
+                  class="hover:border-b-4 transition-all duration-75 hover:border-red-600 bottom-0 pb-4 px-4"
+                  href="./blog-game.html"
+                >
+                  BLOG GAME
+                </a>
+                <a
+                  class="hover:border-b-4 transition-all duration-75 hover:border-red-600 bottom-0 pb-4 px-4"
+                  href="./tin-tuc.html"
+                >
+                  TIN TỨC V7SB
+                </a>
+              </div>
+              <div class="text-xl lg:text-2xl font-bold pr-4">
+                <ion-icon name="search-sharp"></ion-icon>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="md:hidden xl:px-0">
+          <div class="flex justify-center items-center py-2 px-3">
+            <img src="./Images/banner-v7sb.png" alt="" />
+          </div>
+          <div
+            class="flex justify-between items-center py-2 px-4 md:px-6 text-white bg-[#222222]"
+          >
+          <div onclick="handleShow()" id="ClickMenu" class="cursor-pointer text-3xl">
+            <ion-icon name="menu-sharp"></ion-icon>
+          </div>
+            <div class="flex justify-center items-center">
+              <img class="w-7/12" src="./Images/logo-1.png" alt="" />
+            </div>
+            <div class="text-2xl">
+              <ion-icon name="search-sharp"></ion-icon>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- container -->
+      <div
+        class="max-w-[1190px] px-4 md:px-6 xl:px-0 mx-auto pt-8 lg:flex space-y-8 lg:space-y-0 lg:space-x-12"
+      >
+        <div class="lg:w-[69%] pb-10 space-y-8">
+          <div class="space-y-5">
+            <p class="text-gray-500">
+              <span class=""><a href="./index.html">Trang chủ</a> </span>
+              > TIN TỨC V7SB > Đại lý V7SB – hưởng chiết khấu hoa hồng khủng từ
+              30%...
+            </p>
+
+            <h2
+              class="w-28 h-8 text-[11px] text-white text-center bg-[#222222] hidden md:block"
+            >
+              TIN TỨC V7SB
+            </h2>
+
+            <h2 class="text-3xl lg:text-4xl">
+              Đại lý V7SB – hưởng chiết khấu hoa hồng khủng từ 30% – 50%
+            </h2>
+
+            <div class="flex justify-between items-center text-[13px]">
+              <p class="text-[12px]">21 Tháng Ba, 2023</p>
+              <div class="flex items-center space-x-5">
+                <div class="flex items-center space-x-1">
+                  <ion-icon name="eye-outline"></ion-icon>
+                  <p>1076</p>
+                </div>
+
+                <div class="flex items-center space-x-1">
+                  <ion-icon name="chatbox-outline"></ion-icon>
+                  <p>0</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="flex items-center space-x-3">
+              <ion-icon
+                class="text-2xl bg-[#516EAB] hover:bg-[#748BBC] transition-all duration-200 text-white p-3"
+                name="logo-facebook"
+              ></ion-icon>
+              <ion-icon
+                class="text-2xl bg-[#29C5F6] hover:bg-[#54D1F8] transition-all duration-200 text-white p-3"
+                name="logo-pinterest"
+              ></ion-icon>
+              <ion-icon
+                class="text-2xl bg-[#CA212A] hover:bg-[#D54D55] transition-all duration-200 text-white p-3"
+                name="logo-xing"
+              ></ion-icon>
+              <ion-icon
+                class="text-2xl bg-[#7BBF6A] hover:bg-[#95CC88] transition-all duration-200 text-white p-3"
+                name="logo-whatsapp"
+              ></ion-icon>
+            </div>
+          </div>
+
+          <p>
+            Thay vì miệt mài cá cược nhưng lợi nhuận thu được không như mong đợi
+            thì anh em có thể hợp tác làm
+            <a href=""><strong class="text-red-500">đại lý V7SB</strong></a
+            >, nhận chiết khấu hoa hồng siêu khủng lên đến 30% – 50% cực đã. Hãy
+            cùng <strong class="text-red-500"><a href="">V7SB</a></strong> bài viết dưới đây tìm hiểu
+            các bước đăng ký đại lý cực nhanh ngay nhé.
+          </p>
+
+          <ul class="pl-5 space-y-3 list-disc">
+            <li>
+              <a class=" text-blue-500" href=""
+                >Game bài V7SB tạo được sức hút đỉnh cao trong làng giải trí</a
+              >
+            </li>
+
+            <li>
+              <a class=" text-blue-500" href=""
+                >Tài xỉu V7SB là gì? Mẹo chơi tài xỉu tỷ lệ thắng cao</a
+              >
+            </li>
+
+            <li>
+              <a class=" text-blue-500" href=""
+                >Baccarat V7SB là gì? Mẹo chơi baccarat từ cao thủ mới nhất</a
+              >
+            </li>
+
+            <li>
+              <a class=" text-blue-500" href=""
+                >Hướng dẫn cách chơi xóc đĩa V7SB chi tiết từ A đến Z</a
+              >
+            </li>
+
+            <li>
+              <a class=" text-blue-500" href=""
+                >Đá gà V7SB – Theo dõi chiến kê dũng mạnh đẳng cấp châu Á</a
+              >
+            </li>
+          </ul>
+
+          <!-- 1 -->
+          <div class="space-y-7">
+            <h2 class="text-2xl lg:text-3xl">
+              Trở thành đại lý V7SB được hưởng những quyền lợi gì?
+            </h2>
+
+            <!-- img1 -->
+
+            <div class="space-y-6">
+              <p>
+                Đại lý V7SB không chỉ có cơ hội hưởng thu nhập ổn định hàng
+                tháng mà còn có quyền nhận được những ưu đãi độc quyền như sau:
+              </p>
+              <div class="space-y-2">
+                <div>
+                  <img src="./Images/dai-ly/1.jpg" alt="" />
+                </div>
+                <p class="text-sm text-gray-600">
+                  <i>
+                    Những quyền lợi đại lý nhận được từ V7SB cực kỳ hấp dẫn
+                  </i>
+                </p>
+              </div>
+            </div>
+
+            <ul class="pl-5 space-y-3 list-disc">
+              <li>
+                Chiết khấu hoa hồng V7SB dành cho đại lý lên đến 50% cực đã.
+              </li>
+              <li>
+                Trở thành đại lý V7SB, bạn được bảo mật thông tin tuyệt đối,
+                hưởng chính sách thanh toán tự động, tốc độ giao dịch nhanh
+                chóng, dễ tiếp cận.
+              </li>
+              <li>
+                Chỉ cần đại lý có thắc mắc, nhân viên của nhà cái sẵn sàng tư
+                vấn, hỗ trợ và giải đáp đầy đủ, chính xác, đúng trọng tâm mọi
+                lúc mọi nơi.
+              </li>
+              <li>
+                Nhà cái <strong>V7SB</strong> được xây dựng và phát triển trên
+                nền tảng uy tín vững chắc, đại lý không tốn quá nhiều thời gian
+                để quảng bá thương hiệu, dễ dàng thu hút thành viên mới ngay từ
+                những ngày đầu hợp tác.
+              </li>
+              <li>
+                Khuyến mãi siêu khủng dành cho đại lý liên tục được tung ra mỗi
+                ngày với điều kiện rõ ràng, phần quà vô cùng giá trị.
+              </li>
+            </ul>
+
+            <div class="bg-gray-50 w-full h-20 flex items-center space-x-10">
+              <p class="h-full border-[3px] border-gray-800"></p>
+              <p class="font-bold text-lg">
+                <span>Xem Thêm </span> &nbsp;
+                <span class="text-teal-500 underline">
+                  Hướng dẫn cách chơi xóc đĩa V7SB chi tiết từ A đến Z</span
+                >
+              </p>
+            </div>
+          </div>
+
+          <!-- 2 -->
+          <div class="space-y-7">
+            <h2 class="text-2xl lg:text-3xl">Điều kiện trở thành đại lý V7SB cần nhớ</h2>
+
+            <!-- img2 -->
+            <div class="space-y-6">
+              <p>
+                Muốn trở thành đại lý của nhà cái V7SB, người chơi cần đáp ứng
+                một số điều kiện cụ thể như sau:
+              </p>
+              <div class="space-y-2">
+                <div>
+                  <img src="./Images/dai-ly/2.jpg" alt="" />
+                </div>
+                <p>
+                  <i>
+                    Bạn cần nắm rõ các điều kiện để trở thành đại lý nhà cái V7SB
+                  </i>
+                </p>
+              </div>
+            </div>
+
+            <ul class="pl-5 list-disc space-y-3">
+              <li aria-level="1">
+                Đại lý nhà cái cần cam kết đủ từ 18 tuổi trở lên, có đầy đủ năng
+                lực hành vi dân sự, không vi phạm pháp luật Việt Nam.
+              </li>
+              <li aria-level="1">
+                Những người làm việc tại trụ sở, văn phòng của nhà cái sẽ không
+                được quyền đăng ký làm đại lý V7SB.
+              </li>
+              <li aria-level="1">
+                Đại lý nhà cái cần có trang web riêng liên quan đến cá cược,
+                giải trí trực tuyến để thuận tiện cho quá trình quảng bá hình
+                ảnh, giới thiệu sản phẩm tại V7SB đến thành viên mới.
+              </li>
+              <li aria-level="1">
+                Đại lý cần đọc, hiểu và tuân thủ theo đúng những điều khoản điều
+                kiện dành cho đại lý được nhà cái đưa ra nhằm góp phần xây dựng
+                sân chơi lành mạnh, uy tín, an toàn, đáng tin cậy.
+              </li>
+            </ul>
+          </div>
+
+          <!-- 3 -->
+          <div class="space-y-7">
+            <h2 class="text-2xl lg:text-3xl">
+              Hướng dẫn đăng ký đại lý nhà cái V7SB nhận hoa hồng khủng
+            </h2>
+
+            <p>
+              Đăng ký đại lý V7SB là thao tác bắt buộc để người chơi có thể
+              hưởng hoa hồng 30% – 50%, thoải mái sử dụng hình ảnh, khuyến mãi
+              của nhà cái với mục đích thu hút thành viên mới.
+            </p>
+
+            <!-- img3 -->
+            <div class="space-y-6">
+              <p>
+                Các bước tiến hành đăng ký được hướng dẫn chi tiết cụ thể như
+                sau:
+              </p>
+              <div class="space-y-2">
+                <div>
+                  <img src="./Images/dai-ly/3.jpg" alt="" />
+                </div>
+                <p>
+                 <i>
+                  Chỉ cần thực hiện 4 bước, bạn đã nhanh chóng trở thành đại lý
+                  nhà cái chính thức
+                 </i>
+                </p>
+              </div>
+            </div>
+
+            <ul class="pl-5 list-disc space-y-3">
+              <li>
+                Bước 1: Bạn lựa chọn cho mình một đường link uy tín, chính thống
+                để đăng nhập vào trang chủ của nhà cái V7SB, sau đó lựa chọn vào
+                mục Đại lý.
+              </li>
+              <li>
+                Bước 2: Hệ thống sẽ di chuyển bạn đến với giao diện đại lý, lúc
+                này nhấn chọn vào mục Đăng ký.
+              </li>
+              <li>
+                Bước 3: Biểu mẫu đăng ký đại lý xuất hiện trên màn hình, bạn
+                tiến hành điền những thông tin được yêu cầu bao gồm: Tên đăng
+                ký, mật khẩu, họ và tên, số điện thoại, mã kiểm tra.
+              </li>
+              <li>
+                Bước 4: Khi điền đủ thông tin, kiểm tra lại thật chính xác, bạn
+                tích vào mục tôi đủ từ 18 tuổi trở lên. Cuối cùng, nhấn vào Đăng
+                ký ngay để hoàn tất quá trình đăng ký đại lý V7SB thành công.
+              </li>
+            </ul>
+
+            <div class="space-y-6">
+              <div class="bg-gray-50 w-full h-20 flex items-center space-x-10">
+                <p class="h-full border-[3px] border-gray-800"></p>
+                <p class="font-bold text-lg">
+                  <span>Xem Thêm </span> &nbsp;
+                  <span class="text-teal-500 underline">
+                    Link vào V7SB uy tín, không bị chặn, không lừa đảo mới nhất</span
+                  >
+                </p>
+              </div>
+              <p>
+                Lưu ý: Thời gian xử lý yêu cầu đăng ký đại lý tại nhà cái V7SB
+                sẽ diễn ra trong vòng 1 – 2 ngày làm việc. Ngay khi xác nhận
+                thành công, nhân viên của nhà cái sẽ liên hệ đến bạn thông qua
+                số điện thoại được cung cấp để xác minh tài khoản một lần nữa và
+                thông báo thành công.
+              </p>
+            </div>
+          </div>
+
+          <!-- 4 -->
+          <div class="space-y-7">
+            <h2 class="text-2xl lg:text-3xl">
+              Đại lý V7SB nhận được bao nhiêu phần trăm chiết khấu hoa hồng
+            </h2>
+
+            <!-- img4 -->
+            <div class="space-y-6">
+              <p>
+                Chiết khấu hoa hồng tại nhà cái V7SB sẽ được tính dựa vào số
+                lượng thành viên bạn giới thiệu được và lợi nhuận ròng xuyên
+                suốt quá trình đặt cược trong vòng 1 tháng. Cụ thể:
+              </p>
+              <div class="space-y-2">
+                <div>
+                  <img src="./Images/dai-ly/4.jpg" alt="" />
+                </div>
+                <p>
+                 <i>
+                  Chiết khấu hoa hồng đại lý nhà cái V7SB nhận được có thể lên
+                  đến 50%
+                 </i>
+                </p>
+              </div>
+            </div>
+
+            <ul class="pl-5 list-disc space-y-3">
+              <li>
+                Hoa hồng 30%: Đại lý sở hữu 5 thành viên, lợi nhuận ròng thu
+                được dao động từ 2.000.000đ – 200.000.000đ.
+              </li>
+              <li>
+                Hoa hồng 35%: Đại lý sở hữu 5 thành viên đang hoạt động, lợi
+                nhuận ròng có được từ 200.000.000đ – 600.000.000đ.
+              </li>
+              <li>
+                Hoa hồng 40%: Đại lý sở hữu số lượng thành viên đang hoạt động
+                là 5, lợi nhuận ròng có được dao động từ 600.000.000đ –
+                1.500.000.000đ.
+              </li>
+              <li>
+                Hoa hồng 45%: Đại lý sở hữu 5 thành viên đang hoạt động bình
+                thường, lợi nhuận ròng có được từ 1.500.000.000đ –
+                3.000.000.000đ.
+              </li>
+              <li>
+                Hoa hồng 50%: Đại lý sở hữu 5 thành viên đang hoạt động bình
+                thường, lợi nhuận ròng thu được từ trên 3.000.000.000đ.
+              </li>
+            </ul>
+
+            <p>
+              <p>Lưu ý: Lợi nhuận ròng được hiểu là số tiền mà nhà cái thu được thông quá hoạt động cá cược của thành viên mà đại lý giới thiệu được. Lợi nhuận ròng càng cao, nhà cái trả chiết khấu hoa hồng cho đại lý càng khủng.</p>
+            </p>
+
+            <div class="space-y-5">
+              <div class="bg-gray-50 w-full h-20 flex items-center space-x-10">
+                <p class="h-full border-[3px] border-gray-800"></p>
+                <p class="font-bold text-lg">
+                  <span>Xem Thêm </span> &nbsp;
+                  <span class="text-teal-500 underline">
+                    Tổng hợp những câu trả lời thỏa đáng về vấn đề nhà cái V7SB lừa đảo</span
+                  >
+                </p>
+              </div>
+              <p>
+                Đại lý V7SB được hưởng rất nhiều quyền lợi hấp dẫn từ nhà cái.
+                Đặc biệt, bạn có thể thoải mái mở đại lý cấp dưới để hưởng chênh
+                lệch hoa hồng, nâng cao mức thu nhập mỗi tháng có được. Chúc bạn
+                thành công hợp tác cùng nhà cái, tận hưởng chiết khấu lên đến
+                50% ngay hôm nay.
+              </p>
+            </div>
+          </div>
+          <!-- -==================>>>>>>>>>>>>>> -->
+        </div>
+
+        <div class="lg:w-[31%] space-y-8 pb-10">
+          <div class="flex justify-center items-center">
+            <img
+              class="w-full md:w-7/12 lg:w-full"
+              src="./Images/rh1.jpg"
+              alt=""
+            />
+          </div>
+
+          <div class="border-b-[3px] border-gray-800">
+            <h4 class="bg-gray-800 text-white text-center py-1 w-28">
+              Hướng Dẫn
+            </h4>
+          </div>
+
+          <div
+            class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-2 gap-5 text-sm"
+          >
+            <div>
+              <a class=" space-y-2" href="./nap-tien.html">
+                <div>
+                  <img src="./Images/rh2.jpg" alt="" />
+                </div>
+                <p class="hover:text-red-600 transition-all duration-100">
+                  Top 5 cách nạp tiền V7SB không chỉ nhanh mà còn...
+                </p>
+              </a>
+            </div>
+
+            <div>
+              <a class=" space-y-2" href="./rut-tien.html">
+                <div>
+                  <img src="./Images/rh3.jpg" alt="" />
+                </div>
+                <p class="hover:text-red-600 transition-all duration-100">
+                  Rút tiền V7SB – 3 bước thực hiện thành công nhanh...
+                </p>
+              </a>
+            </div>
+
+            <div>
+              <a class=" space-y-2" href="./tai-app.html">
+                <div>
+                  <img src="./Images/rh5.jpg" alt="" />
+                </div>
+                <p class="hover:text-red-600 transition-all duration-100">
+                  Tải app V7SB – Trải nghiệm mượt mà, đa dạng sảnh...
+                </p>
+              </a>
+            </div>
+
+            <div>
+              <a class=" space-y-2" href="./dang-nhap.html">
+                <div>
+                  <img src="./Images/rh4.jpg" alt="" />
+                </div>
+                <p class="hover:text-red-600 transition-all duration-100">
+                  Hướng dẫn các bước đăng nhập V7SB thành công ngoài mong...
+                </p>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+ <!-- footer -->
+ <div class="bg-[#222222] text-[#FFFFFF]">
+  <div
+    class="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-[1190px] px-4 md:px-6 xl:px-0 mx-auto pt-16 pb-20"
+  >
+    <div class="space-y-8">
+      <div class="">
+        <img class="w-full h-48 p-4 border border-gray-700 rounded" src="./Images/logo-1.png" alt="" />
+      </div>
+      <div class="space-y-4">
+        <p>
+          V7SB - Là một trong những nhà cái uy tín hàng đầu Châu Á, với số
+          lượng người chơi khủng nhất năm 2023.
+        </p>
+
+        <div class="grid grid-cols-5 gap-4 text-xl">
+          <div
+            class="w-10 h-10 flex justify-center items-center bg-[#292929] border-gray-700 border cursor-pointer"
+          >
+            <ion-icon name="logo-linkedin"></ion-icon>
+          </div>
+          <div
+            class="w-10 h-10 flex justify-center items-center bg-[#292929] border-gray-700 border cursor-pointer"
+          >
+            <ion-icon name="logo-pinterest"></ion-icon>
+          </div>
+          <div
+            class="w-10 h-10 flex justify-center items-center bg-[#292929] border-gray-700 border cursor-pointer"
+          >
+            <ion-icon name="logo-reddit"></ion-icon>
+          </div>
+          <div
+            class="w-10 h-10 flex justify-center items-center bg-[#292929] border-gray-700 border cursor-pointer"
+          >
+            <ion-icon name="logo-vimeo"></ion-icon>
+          </div>
+          <div
+            class="w-10 h-10 flex justify-center items-center bg-[#292929] border-gray-700 border cursor-pointer"
+          >
+            <ion-icon name="logo-xing"></ion-icon>
+          </div>
+
+
+        </div>
+      </div>
+    </div>
+    <div class="space-y-8">
+      <div class=" ">
+        <h4 class="text-lg font-semibold">
+          <span class="">BÀI VIẾT PHỔ BIẾN</span>
+        </h4>
+      </div>
+
+      <div class="space-y-4">
+        <div>
+          <a class="flex space-x-1" href="./huong-dan.html">
+            <div>
+              <img class="w-11/12" src="./Images/rh4.jpg" alt="" />
+            </div>
+            <div class="space-y-2 xl:text-base text-sm">
+              <p>Hướng dẫn các bước đăng nhập V7SB thành công...</p>
+              <p class="text-xs xl:text-sm text-gray-400">
+                21 Tháng Ba, 2023
+              </p>
+            </div>
+          </a>
+        </div>
+
+        <div>
+          <a class="flex space-x-1" href="./rut-tien.html">
+            <div>
+              <img class="w-11/12" src="./Images/rh3.jpg" alt="" />
+            </div>
+            <div class="space-y-2">
+              <p class="xl:text-base text-sm">
+                Rút tiền V7SB – 3 bước thực hiện thành công nhanh...
+              </p>
+              <p class="text-xs xl:text-sm text-gray-400">
+                21 Tháng Ba, 2023
+              </p>
+            </div>
+          </a>
+        </div>
+
+        <div>
+          <a class="flex space-x-1" href="./tai-app.html">
+            <div>
+              <img class="w-11/12" src="./Images/rh5.jpg" alt="" />
+            </div>
+            <div class="space-y-2">
+              <p class="xl:text-base text-sm">
+                Tải app V7SB – Trải nghiệm mượt mà, đa dạng sảnh...
+              </p>
+              <p class="text-xs xl:text-sm text-gray-400">
+                20 Tháng Ba, 2023
+              </p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="space-y-8">
+      <div class=" ">
+        <h4 class="text-lg font-semibold">
+          <span class="">MỤC XEM NHIỀU</span>
+        </h4>
+      </div>
+      <ul class="space-y-3">
+        <li>
+          <a
+            class="flex justify-between items-center hover:text-red-500 transition-all duration-75"
+            href="./tin-tuc.html"
+            ><span class="">TIN TỨC</span><span class="">13</span></a
+          >
+        </li>
+        <li>
+          <a
+            class="flex justify-between items-center hover:text-red-500 transition-all duration-75"
+            href="./blog-game.html"
+            ><span class="">BLOG GAME</span><span class="">6</span></a
+          >
+        </li>
+        <li>
+          <a
+            class="flex justify-between items-center hover:text-red-500 transition-all duration-75"
+            href="./huong-dan.html"
+            ><span class="">HƯỚNG DẪN V7SB</span
+            ><span class="">5</span></a
+          >
+        </li>
+        <li>
+          <a
+            class="flex justify-between items-center hover:text-red-500 transition-all duration-75"
+            href="./khuyen-mai.html"
+            ><span class="">KHUYẾN MÃI</span><span class="">1</span></a
+          >
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="bg-[#0D0D0D] py-3">
+    <div
+      class="max-w-[1190px] px-4 md:px-6 xl:px-0 mx-auto text-sm text-gray-300 space-y-4 lg:space-y-0 lg:flex lg:justify-between lg:items-center"
+    >
+      <div class="lg:block hidden">© v7sb.mom</div>
+      <ul
+        class="flex flex-wrap justify-center *:py-1 space-x-4 items-center"
+      >
+        <li>
+          <a
+            class="hover:text-red-500 transition-all duration-75"
+            href="#"
+            >Trang Chủ</a
+          >
+        </li>
+        <li>
+          <a
+            class="hover:text-red-500 transition-all duration-75"
+            href="#"
+            >Chính sách bảo mật</a
+          >
+        </li>
+        <li>
+          <a
+            class="hover:text-red-500 transition-all duration-75"
+            href="#"
+            >Điều Khoản Điều Kiện</a
+          >
+        </li>
+        <li>
+          <a
+            class="hover:text-red-500 transition-all duration-75"
+            href="#"
+            >Chơi có trách nhiệm</a
+          >
+        </li>
+        <li>
+          <a
+            class="hover:text-red-500 transition-all duration-75"
+            href="#"
+            >Quyền riêng tư</a
+          >
+        </li>
+        <li>
+          <a
+            class="hover:text-red-500 transition-all duration-75"
+            href="#"
+            >Liên Hệ</a
+          >
+        </li>
+        <li>
+          <a
+            class="hover:text-red-500 transition-all duration-75"
+            href="#"
+            >Sitemap</a
+          >
+        </li>
+        <li>
+          <a
+            class="hover:text-red-500 transition-all duration-75"
+            href="#"
+            >robots.txt</a
+          >
+        </li>
+      </ul>
+      <div class="lg:hidden text-center">© v7sb.mom</div>
+    </div>
+  </div>
+</div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
